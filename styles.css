@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.binzhou {
+    background-image: url("images/binzhou.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-background {
+    background-color: black;
+    height: 50px;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.text2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 5% 0;
+    padding: 20px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: center;
+    
+}
+.background{
+    background-color: bisque;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    border-radius: 100px;
+}
+
+/*.BBQ {
+    margin: 10px 40px 0 0;
+}
+
+.kongmiao {
+     margin: 0 40px;
+}
+
+.laoshan {
+     margin: 0 0 0 40px;
+}*/
+.BBQ{
+    margin: 50px 40px ; 
+}
+.kongmiao{
+    margin: 0 250px; 
+}
+.business-card{
+    width: 40%;
+    border-radius: 10px;
+    margin: 0 10px 0px 0px;
+}
+
+#business-card{
+    border-radius: 10px;
+    border-bottom: blueviolet;
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    margin: 10px auto 30px auto;
+}
+
+
+.information{
+   text-align: center;
+   width: 300px;
+   margin: 0 10px 0px 20px;
+}
+    
